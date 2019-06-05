@@ -47,7 +47,7 @@ section {
   border: 1px solid #000;
   float: left;
   width: 50%;
-  min-height: 20rem;
+  min-height: 17rem;
   justify-content: center;
 }
 section h3 {
@@ -60,7 +60,7 @@ section h3 {
   border: red 1px solid;
   width: 75%;
   text-align: center;
-  margin-left: 3rem;
+  margin-left: 4.5rem;
   margin-top: 3rem;
   min-height: 9rem;
 }
@@ -68,7 +68,7 @@ section h3 {
 /* ASIDE */
 aside {
   border: 1px solid #000;
-  min-height: 20rem;
+  min-height: 17rem;
 }
 aside h3 {
   font-size: 20px;
@@ -77,7 +77,16 @@ aside h3 {
   padding-bottom: .5rem;
 }
 
-
+/* FOOTER */
+footer {
+  min-height: 2rem;
+  text-align: center;
+}
+footer p {
+  color: indianred;
+  font-weight: bold;
+  padding-top: .5rem;
+}
 
 
 

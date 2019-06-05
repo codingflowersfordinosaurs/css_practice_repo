@@ -1,0 +1,83 @@
+/* HEADER */
+#header-one {
+  min-height: 3rem;
+  border-bottom: 1px solid #fc7c7c;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+#brand {
+  float: left;
+  font-size: 3rem;
+  padding-left: .5rem;
+}
+#header-nav ul {
+  float: right;
+}
+#header-nav ul li {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-top: .75rem;
+  font-size: 1.25rem;
+}
+#header-nav a {
+  text-decoration: none;
+  color: indianred;
+}
+#header-nav a:last-child {
+  padding-right: .5rem;
+}
+#header-nav a:hover {
+  text-decoration: none;
+  color: #fc7c7c;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: black;
+  min-height: 10rem;
+  text-align: center;
+}
+.jumbotron h2 {
+  color: #ffffff;
+  padding-top: 4rem;
+}
+
+/* SECTION */
+section {
+  border: 1px solid #000;
+  float: left;
+  width: 50%;
+  min-height: 20rem;
+  justify-content: center;
+}
+section h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+#section-article {
+  border: red 1px solid;
+  width: 75%;
+  text-align: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  min-height: 9rem;
+}
+
+/* ASIDE */
+aside {
+  border: 1px solid #000;
+  min-height: 20rem;
+}
+aside h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+
+
+
+

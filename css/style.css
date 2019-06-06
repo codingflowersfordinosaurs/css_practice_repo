@@ -156,9 +156,28 @@ footer p {
     min-height: 15rem;
     background-color: #ffffff;
     padding-bottom: 2rem;
+    float: left;
   }
   aside {
-    display: none;
+    width: 100%;
+    min-height: 15rem;
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+    float: left;
+  }
+  .jumbotron {
+    width: 100%;
+    min-height: 15rem;
+    background-color: #000;
+    padding-bottom: 2rem;
+    float: left;
+  }
+  footer {
+    width: 100%;
+    min-height: 3rem;
+    background-color: pink;
+    padding: 2rem 0;
+    float: left;
   }
   
 }

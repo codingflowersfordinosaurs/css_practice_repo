@@ -14,4 +14,4 @@ Here, I am using Exercise 1's code and using media queries to try and make it mo
 ![Gif of Exercise 2 Attempt 1](https://media.giphy.com/media/KFVcPZqfw0gzmCewNI/giphy.gif)
 ### Exercise 2: Making Exercise 1 Mobile Responsive (Attempt 2)
 Additional styles given to tags, classes, and ids. The float: left style seemed to help out a lot! {figure out why; put explanation here}.
-![Gif of Exercise 2 Attempt 1](https://media.giphy.com/media/KFVcPZqfw0gzmCewNI/giphy.gif))
+![Gif of Exercise 2 Attempt 1](https://media.giphy.com/media/KFVcPZqfw0gzmCewNI/giphy.gif)

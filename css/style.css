@@ -151,7 +151,15 @@ footer p {
   #section-article {
     display: none;
   }
-  
+  section {
+    width: 100%;
+    min-height: 15rem;
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+  }
+  aside {
+    display: none;
+  }
   
 }
 
@@ -164,6 +172,16 @@ footer p {
   
   #section-article {
     display: none;
+  }
+  section {
+    width: 100%;
+    min-height: 15rem;
+  }
+  aside {
+    display: none;
+  }
+  .jumbotron {
+    min-height: 20rem;
   }
 
 }

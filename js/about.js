@@ -1,0 +1,1 @@
+TweenMax.to(".aboutTitle", 2, {left:600});

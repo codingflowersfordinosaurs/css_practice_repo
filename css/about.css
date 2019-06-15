@@ -31,50 +31,61 @@
   color: #fc7c7c;
 }
 
-/* JUMBOTRON */
-.jumbotron {
-  background-color: black;
-  min-height: 10rem;
-  text-align: center;
+/* ABOUT JUMBOTRON */
+.aboutJumbotron {
+  min-height: 20rem;
+  background-color: #ccc;
+  color: #fc7c7c;
+  animation-name: jumbotronAnimation;
+  animation-duration: 4s;
 }
-.jumbotron h2 {
-  color: #ffffff;
-  padding-top: 4rem;
+.aboutTitle {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  animation-name: slidein;
+  animation-duration: 2s;
 }
 
-/* SECTION */
-section {
-  border: 1px solid #000;
-  float: left;
-  width: 50%;
-  min-height: 17rem;
-  justify-content: center;
-}
-section h3 {
-  font-size: 20px;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-#section-article {
-  border: red 1px solid;
-  width: 75%;
-  text-align: center;
-  margin-left: 4.5rem;
-  margin-top: 3rem;
-  min-height: 9rem;
+@keyframes jumbotronAnimation {
+  from {color: #ccc;}
+  to {color: #fc7c7c;}
 }
 
-/* ASIDE */
-aside {
-  border: 1px solid #000;
-  min-height: 17rem;
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
-aside h3 {
-  font-size: 20px;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+
+.aboutBtn {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-left: 34rem;
+  border: #fc7c7c 1px solid;
+  color: #fc7c7c;
+  animation-name: buttonAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes buttonAnimation {
+  from {
+    color: #ccc;
+  }
+  to {
+    color: #fc7c7c;
+  }
+}
+
+.aboutBtn:hover{
+  cursor: pointer;
+  background-color: #f0f0f0;
 }
 
 /* FOOTER */
@@ -121,9 +132,6 @@ footer p {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  #section-article {
-    display: none;
-  }
   
 }
 
@@ -133,11 +141,7 @@ footer p {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  #section-article {
-    display: none;
-  }
-  
+
   
 }
 
@@ -147,31 +151,7 @@ footer p {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  #section-article {
-    display: none;
-  }
-  section {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  aside {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  .jumbotron {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #000;
-    padding-bottom: 2rem;
-    float: left;
-  }
+
   footer {
     width: 100%;
     min-height: 3rem;
@@ -189,6 +169,10 @@ footer p {
 
 @media (min-width: 320px) and (max-width: 480px) {
   
+  .header-one {
+    min-height: 5rem;
+  }
+
   #brand {
     width: 100%;
     text-align: center;
@@ -199,31 +183,38 @@ footer p {
     float: left;
     text-align: center;
   }
+  #header-nav ul li {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-top: .75rem;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 
-  #section-article {
-    display: none;
-  }
-  section {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  aside {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  .jumbotron {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #000;
-    padding-bottom: 2rem;
-    float: left;
-  }
+  /* ABOUT JUMBOTRON */
+.aboutJumbotron {
+  min-height: 15rem;
+  background-color: #ccc;
+}
+.aboutTitle {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.aboutBtn {
+  font-size: 1rem;
+  border-radius: 15px;
+  margin-left: 8.5rem;
+  border: #fc7c7c 1px solid;
+}
+.aboutBtn:hover{
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
   footer {
     width: 100%;
     min-height: 2rem;

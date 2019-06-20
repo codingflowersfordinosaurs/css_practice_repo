@@ -88,6 +88,31 @@
   background-color: #f0f0f0;
 }
 
+/* BOXES */
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+.box1:hover {
+  transform: rotate(45deg);
+  animation: infinite 3s;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+}
+.box3 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+
+
+
+
 /* FOOTER */
 footer {
   min-height: 2rem;

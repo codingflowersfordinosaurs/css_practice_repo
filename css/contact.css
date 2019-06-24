@@ -31,51 +31,42 @@
   color: #fc7c7c;
 }
 
-/* JUMBOTRON */
-.jumbotron {
-  background-color: black;
-  min-height: 10rem;
-  text-align: center;
-}
-.jumbotron h2 {
-  color: #ffffff;
-  padding-top: 4rem;
+/* form */
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
 }
 
-/* SECTION */
-section {
-  border: 1px solid #000;
-  float: left;
-  width: 50%;
-  min-height: 17rem;
-  justify-content: center;
-}
-section h3 {
-  font-size: 20px;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-#section-article {
-  border: red 1px solid;
-  width: 75%;
-  text-align: center;
-  margin-left: 4.5rem;
-  margin-top: 3rem;
-  min-height: 9rem;
+form div + div {
+  margin-top: 1em;
 }
 
-/* ASIDE */
-aside {
-  border: 1px solid #000;
-  min-height: 17rem;
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
 }
-aside h3 {
-  font-size: 20px;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+input, textarea {
+  font: 1em sans-serif;width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid black;
+
 }
+input:focus, textarea:focus {
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+.button {
+  margin-left: .5em;
+}
+
 
 /* FOOTER */
 footer {

@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* HEADER */
+
 .header-one {
   min-height: 3rem;
   border-bottom: 1px solid #fc7c7c;
@@ -54,7 +54,7 @@ section {
   margin-bottom: .5em;
 }
 
-/* FOOTER */
+
 footer {
   margin-top: 5em;
   min-height: 2rem;
@@ -68,140 +68,48 @@ footer p {
   margin-right: 1em;
 }
 
-/* MEDIA QUERIES */
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-  header {
-    width: 100%;
-  }
+/* * {
+  box-sizing: border-box;
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 0 0 0;
+  padding: 0 10%;
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  #section-article {
-    display: none;
-  }
+h1, h2, h3, h4 , h5, h6 {
+  background-color: #49b749;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 10px 10px;
+  width: 100%;
 }
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  #section-article {
-    display: none;
-  }
+.menu {
+  margin: 5px auto 10px auto;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  #section-article {
-    display: none;
-  }
-  section {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  aside {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  .jumbotron {
-    width: 100%;
-    min-height: 15rem;
-    background-color: #000;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  footer {
-    width: 100%;
-    min-height: 3rem;
-    background-color: pink;
-    padding: 2rem 0;
-    float: left;
-  }
+.menu > li {
+  display: inline-block;
 }
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  #brand {
-    width: 100%;
-    text-align: center;
-  }
-
-  #header-nav {
-    width: 100%;
-    float: left;
-    text-align: center;
-  }
-  #header-nav ul li {
-    display: inline-block;
-    padding-right: 0.5rem;
-    padding-top: 0.75rem;
-    font-size: 1rem;
-    margin-right: 3.5rem;
-  }
-
-  #section-article {
-    display: none;
-  }
-  section {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  aside {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #ffffff;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  .jumbotron {
-    width: 100%;
-    min-height: 9rem;
-    background-color: #000;
-    padding-bottom: 2rem;
-    float: left;
-  }
-  footer {
-    width: 100%;
-    min-height: 2rem;
-    background-color: pink;
-    padding: 2rem 0;
-    float: left;
-  }
+.menu-button {
+  background-color: #0093D5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
 }
+.menu-button:hover {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+} */

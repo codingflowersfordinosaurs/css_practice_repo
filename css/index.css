@@ -1,19 +1,21 @@
 /* HEADER */
 .header-one {
-  min-height: 3rem;
+  min-height: 8%;
   background-color: #fff;
   border-bottom: 1px solid #0ac400;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
   top: 0;
   width: 100%;
   position: fixed;
   transition: top 0.5s;
+  z-index: 1000;
 }
 #brand {
   float: left;
-  font-size: 3rem;
-  padding-left: 2rem;
+  font-size: 4vw;
+  padding-top: 1vh;
+  padding-left: 2vw;
   color: #000;
 }
 /* #brand:hover {
@@ -24,16 +26,16 @@
 }
 #header-nav ul li {
   display: inline-block;
-  padding-right: 2rem;
-  padding-top: .75rem;
-  font-size: 1.25rem;
+  padding-right: 2vh;
+  padding-top: 2.5vh;
+  font-size: 2vw;
 }
 #header-nav a {
   text-decoration: none;
   color: #000;
 }
 #header-nav a:last-child {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 #header-nav a:hover {
   text-decoration: none;
@@ -48,10 +50,10 @@
   text-align: center;
 }
 .jumbotron h1 {
-  color: #0bda00;
-  padding-top: 19rem;
-  font-size: 2.5em;
-  filter: drop-shadow(0 0 0.75rem green);
+  color: #0ac700;
+  padding-top: 25%;
+  font-size: 5vh;
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
   /* filter: blur(2px); */
 }
 
@@ -61,7 +63,7 @@ section {
   /* border-right: 1px solid #000; */
   float: left;
   width: 50%;
-  min-height: 45em;
+  min-height: 45vh;
   justify-content: center;
 }
 #firstSection {
@@ -71,10 +73,10 @@ section {
   border-left: 1px solid #000;
 }
 section h3 {
-  font-size: 20px;
+  font-size: 5vh;
   text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 #section-article {
   /* border: red 1px solid; */
@@ -82,16 +84,16 @@ section h3 {
   background-size: cover;
   width: 75%;
   text-align: left;
-  margin-left: 4.5rem;
-  margin-top: 3rem;
-  min-height: 15rem;
-  padding-top: 2em;
-  padding-left: 2em;
+  margin-left: 3vw;
+  margin-top: 3vh;
+  min-height: 40vh;
+  padding-top: 2vh;
+  padding-left: 2vw;
 }
 #section-article a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5em;
+  font-size: 3.5vh;
   /* padding-top: 2em; */
 }
 #section-article a:hover {
@@ -105,22 +107,22 @@ section h3 {
 /* ASIDE */
 aside {
   /* border: 1px solid #000; */
-  min-height: 45em;
+  min-height: 45vh;
   margin-top: 5em;
   float: left;
   width: 49%;
 }
 aside h3 {
-  font-size: 20px;
+  font-size: 5vh;
   text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #firstAside h3 {
   /* padding-top: 1em; */
-  font-size: 1.5em;
-  padding-bottom: 2em;
+  font-size: 5vh;
+  padding-bottom: 4vh;
 }
 #firstAside p {
   padding: 0 6em 3em 6em;
@@ -129,7 +131,7 @@ aside h3 {
 
 #secondAside h3 {
   /* padding-top: 1em; */
-  font-size: 1.5em;
+  font-size: 5vh;
   padding-bottom: 2em;
 }
 #secondAside p {
@@ -137,20 +139,19 @@ aside h3 {
   line-height: 3;
 }
 
-
 /* 2nd Section */
 #homeInfoSection {
-  width: 100%;  
+  width: 100%;
   min-height: 70vh;
   margin-top: 5em;
 }
 #homeInfoSection h3 {
   padding-bottom: 2em;
-  font-size: 2.25em;
+  font-size: 5vh;
 }
 #homeInfoSection p {
   padding-bottom: 5em;
-  font-size: 1.25em;
+  font-size: 3vh;
   text-align: center;
 }
 
@@ -165,23 +166,27 @@ aside h3 {
 }
 #endJumbotron h2 {
   color: #0be100;
-  font-size: 3em;
+  font-size: 7vh;
   text-align: right;
-  padding-top: 10%;
-  padding-right: 6%;
+  padding-top: 10vh;
+  padding-right: 6vw;
   filter: drop-shadow(0 0 0.75rem rgb(72, 255, 72));
 }
 
-
 /* FOOTER */
 footer {
-  min-height: 2rem;
+  min-height: 10%;
   text-align: center;
+  width: 100%;
+}
+#footer-brand {
+  float: left;
+  font-size: 6vh;
 }
 footer h1 {
   color: #000;
   font-weight: bold;
-  padding-top: 1em;
+  padding-top: 5vh;
   padding-bottom: 1em;
 }
 .footerCol {
@@ -192,7 +197,7 @@ footer h1 {
 }
 
 .footerCol li {
-  line-height: 2em;
+  line-height: 6vh;
 }
 
 .footerCol a {
@@ -203,7 +208,6 @@ footer h1 {
   color: #0ac400;
 }
 
-
 /* MEDIA QUERIES */
 /* 
   ##Device = Desktops
@@ -211,11 +215,9 @@ footer h1 {
 */
 
 @media (min-width: 1281px) {
-  
   header {
     width: 100%;
   }
-  
 }
 
 /* 
@@ -224,8 +226,6 @@ footer h1 {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
 }
 
 /* 
@@ -234,11 +234,9 @@ footer h1 {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   #section-article {
-    display: none;
+    display: block;
   }
-  
 }
 
 /* 
@@ -247,12 +245,6 @@ footer h1 {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  #section-article {
-    display: none;
-  }
-  
-  
 }
 
 /* 
@@ -261,10 +253,7 @@ footer h1 {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
-  #section-article {
-    display: none;
-  }
+  /*  
   section {
     width: 100%;
     min-height: 15rem;
@@ -278,22 +267,128 @@ footer h1 {
     background-color: #ffffff;
     padding-bottom: 2rem;
     float: left;
+  } */
+  .header-one {
+    width: 100%;
+    min-height: 3rem;
   }
+  #brand {
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+  }
+  #header-nav {
+    width: 100%;
+    /* text-align: center; */
+  }
+  #header-nav ul {
+    width: 100%;
+    text-align: center;
+    /* font-size: 8vh; */
+  }
+  #header-nav ul li {
+    font-size: 3vh;
+    padding: 2.75vw;
+  }
+
   .jumbotron {
     width: 100%;
-    min-height: 15rem;
+    min-height: 30rem;
     background-color: #000;
     padding-bottom: 2rem;
     float: left;
   }
+  .jumbotron h1 {
+    padding-top: 30vh;
+  }
+
+  #firstSection {
+    min-height: 100vh;
+    /* background-color: #ccc; */
+  }
+  #firstSection h3 {
+    font-size: 5vh;
+    margin-bottom: 3em;
+  }
+  #firstSection article {
+    height: 10vh;
+    width: 80%;
+    background-image: cover;
+    margin-bottom: 5em;
+  }
+
+  #firstAside {
+    min-height: 100vh;
+    /* background-color: rgb(130, 128, 128); */
+  }
+  #firstAside h3 {
+    font-size: 4vh;
+   /* padding-top: 1em; */
+  }
+  #firstAside p {
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+    padding-bottom: 1.95em;
+  }
+
+  #secondAside {
+    min-height: 100vh;
+    /* background-color: rgb(130, 128, 128); */
+  }
+  #secondAside h3 {
+    font-size: 4vh;
+   /* padding-top: 1em; */
+  }
+  #secondAside p {
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+    padding-bottom: 1.95em;
+  }
+
+  #secondSection {
+    min-height: 100vh;
+    /* background-color: #ccc; */
+  }
+  #secondSection h3 {
+    font-size: 5vh;
+    margin-bottom: 3em;
+  }
+  #secondSection article {
+    height: 10vh;
+    width: 80%;
+    background-image: cover;
+    margin-bottom: 5em;
+  }
+
+  #endJumbotron {
+    width: 100%;
+    min-height: 30rem;
+    /* background-color: #000; */
+    padding-bottom: 2rem;
+    float: left;
+  }
+  #endJumbotron h2 {
+    padding-top: 38vh;
+    padding-right: 1.5em;
+    color: #ffaf37;
+  }
+
+
   footer {
     width: 100%;
     min-height: 3rem;
-    background-color: pink;
+
     padding: 2rem 0;
     float: left;
   }
-  
+  #footer-brand {
+    width: 100%;
+  }
+  .footerCol {
+    width: 32%;
+  }
 }
 
 /* 
@@ -302,43 +397,43 @@ footer h1 {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  .header-one {
+    width: 100%;
+    min-height: 3rem;
+  }
   #brand {
     width: 100%;
     text-align: center;
+    font-size: 5vh;
   }
-
   #header-nav {
     width: 100%;
-    float: left;
+    /* text-align: center; */
+  }
+  #header-nav ul {
+    width: 100%;
     text-align: center;
+    /* font-size: 8vh; */
   }
   #header-nav ul li {
-    display: inline-block;
-    padding-right: .5rem;
-    padding-top: .75rem;
-    font-size: 1rem;
-    margin-right: 3.5rem;
+    font-size: 3vh;
+    padding: 2.75vw;
   }
-  
-
-  #section-article {
-    display: none;
-  }
+  /* 
   section {
     width: 100%;
     min-height: 9rem;
     background-color: #ffffff;
     padding-bottom: 2rem;
     float: left;
-  }
-  aside {
+  } */
+  /* aside {
     width: 100%;
     min-height: 9rem;
     background-color: #ffffff;
     padding-bottom: 2rem;
     float: left;
-  }
+  } */
   .jumbotron {
     width: 100%;
     min-height: 9rem;
@@ -346,11 +441,18 @@ footer h1 {
     padding-bottom: 2rem;
     float: left;
   }
+
   footer {
     width: 100%;
-    min-height: 2rem;
-    background-color: pink;
+    min-height: 3rem;
+
     padding: 2rem 0;
     float: left;
+  }
+  #footer-brand {
+    width: 100%;
+  }
+  .footerCol {
+    width: 32%;
   }
 }

@@ -54,7 +54,7 @@ font-family: 'Handlee', cursive;
   color: #000;
 }
 #header-nav a:last-child {
-  padding-right: 0.5rem;
+  padding-right: 0.5em;
 }
 #header-nav a:hover {
   text-decoration: none;

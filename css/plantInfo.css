@@ -1,3 +1,9 @@
+/* .container {
+  background-image: url("../images/leaves.png");
+} */
+body {
+  background-image: url("../images/leaves.png");
+}
 /* HEADER */
 .header-one {
   min-height: 8%;
@@ -44,12 +50,35 @@
   color: #0ac400;
 }
 
-section {
-  margin-top: 10em;
-  margin-left: 20em;
+
+
+/* BEGINNER PLANT LIST */
+#plant-list {
+  margin-top: 8em;
+  width: 100%;
+  /* background-image: url("../images/leaves.png"); */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#plant-list h2 {
+  font-size: 2em;
+  margin-top: 2em;
+  font-family: 'Poiret One', cursive;
+  border-bottom: #0ac400 1px solid;
 }
 
-.paragraphText {
+/* PLANT CARDS */
+.card {
+  margin-top: 5em;
+}
+
+
+/* section {
+  margin-top: 10em;
+  margin-left: 20em;
+} */
+
+/* .paragraphText {
   color: #ffffff;
 }
 .titleText {
@@ -57,7 +86,7 @@ section {
   font-size: 6em;
   margin-top: .5em;
   margin-bottom: .5em;
-}
+} */
 
 
 
@@ -66,6 +95,8 @@ footer {
   min-height: 10%;
   text-align: center;
   width: 100%;
+  /* background-color: #fff;
+  z-index: 1000; */
 }
 #footer-brand {
   float: left;

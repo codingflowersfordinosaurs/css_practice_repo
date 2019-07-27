@@ -1,273 +1,185 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
 /* HEADER */
 .header-one {
-  min-height: 3rem;
-  border-bottom: 1px solid #fc7c7c;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  margin: 0;
+  min-height: 8%;
+  background-color: #fff;
+  border-bottom: 1px solid #0ac400;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  transition: top 0.5s;
+  z-index: 1000;
 }
 #brand {
   float: left;
-  font-size: 3rem;
-  padding-left: .5rem;
+  font-size: 4vw;
+  padding-top: 1vh;
+  padding-left: 2vw;
+  color: #000;
+  font-family: 'Poiret One', cursive;
 }
+/* #brand:hover {
+  color: #0ac400;
+} */
 #header-nav ul {
   float: right;
 }
 #header-nav ul li {
   display: inline-block;
-  padding-right: .5rem;
-  padding-top: .75rem;
-  font-size: 1.25rem;
+  padding-right: 2vh;
+  padding-top: 2.5vh;
+  font-size: 2vw;
+  font-family: 'Poiret One', cursive;
 }
 #header-nav a {
   text-decoration: none;
-  color: indianred;
+  color: #000;
 }
 #header-nav a:last-child {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 #header-nav a:hover {
   text-decoration: none;
-  color: #fc7c7c;
+  color: #0ac400;
 }
 
-/* ABOUT JUMBOTRON */
-.aboutJumbotron {
-  min-height: 20rem;
-  background-color: #ccc;
-  color: #fc7c7c;
-  animation-name: jumbotronAnimation;
-  animation-duration: 4s;
+/* MISSION JUMBOTRON */
+#missionJumbotron {
+  padding-top: 8em;
+  min-height: 110vh;
+  margin: 0;
+  background: url("https://media1.giphy.com/media/X8M7iJQPh8RpFVGlZz/giphy.gif");
+  background-size: cover;
 }
-.aboutTitle {
+#missionJumbotron p {
   text-align: center;
-  font-size: 5rem;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-  animation-name: slidein;
-  animation-duration: 2s;
+  margin-bottom: 2em;
+  font-family: 'Quicksand', sans-serif;
 }
-
-@keyframes jumbotronAnimation {
-  from {color: #ccc;}
-  to {color: #fc7c7c;}
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.aboutBtn {
-  font-size: 1.5rem;
-  border-radius: 5px;
-  margin-left: 34rem;
-  border: #fc7c7c 1px solid;
-  color: #fc7c7c;
-  animation-name: buttonAnimation;
-  animation-duration: 4s;
-}
-
-@keyframes buttonAnimation {
-  from {
-    color: #ccc;
-  }
-  to {
-    color: #fc7c7c;
-  }
-}
-
-.aboutBtn:hover{
-  cursor: pointer;
-  background-color: #f0f0f0;
-}
-
-.card {
-  width: 7em;
-  height: 10em;
-  float: left;
-  margin: 3em;
-  margin-left: 7em;
-}
-
-.box1 {
-  width: 45%;
-  height: 12em;
-  float: left;
-  border: black 1px solid;
-  margin-left: 2.25em;
-  margin-right: 3em;
-  margin-top: 12em;
-  margin-bottom: 4em;
+#missionJumbotron h1 {
   text-align: center;
-}
-.box2 {
-  width: 45%;
-  height: 12em;
-  float: left;
-  border: black 1px solid;
-  margin-top: 12em;
-  text-align: center;
-  margin-bottom: 4em;
+  text-transform: uppercase;
+  line-height: 2.25;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 }
 
-.meetUp {
-  width: 29%;
-  height: 9em;
-  float: left;
-  border: black 1px solid;
-  margin-left: 1.5em;
-  margin-bottom: 4em;
-  padding: 10px;
+/* ABOUT PROFILE PLANT SECTION */
+#aboutJumbotron {
+  /* background-color: #ccc; */
+  padding-top: 8em;
+}
+#aboutJumbotron h1 {
+  text-transform: uppercase;
+  padding: 0 3em .5em 2em;
+  font-family: 'Poiret One', cursive;
+}
+#aboutJumbotron p {
+  padding: 0 10em 2em 5.5em;
+  line-height: 2;
+  font-family: 'Quicksand', sans-serif;
 }
 
+/* ABOUT IMAGES */
+#aboutImage1 {
+  width: 500px;
+  height: 500px;
+}
+#aboutImage2 {
+  width: 500px;
+  height: 500px;
+}
+#aboutImage3 {
+  width: 500px;
+  height: 500px;
+}
+#aboutImage4 {
+  width: 500px;
+  height: 500px;
+}
 
+/*  image Text Row */
+.imageTextRow {
+  margin-top: 10em;
+}
+
+/* TEXT IN ROWS WITH IMAGES */
+.imageText {
+  padding: 5em 4em 3em 4em;
+}
+.imageText h5 {
+/* text-align: center; */
+padding: 1em 0 1em 0;
+border-top: #0ac400 1px solid;
+font-family: 'Poiret One', cursive;
+/* font-weight: bold; */
+font-size: 2em;
+}
+.imageText p {
+line-height: 2;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
 
 /* FOOTER */
 footer {
-  margin-top: 60em;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  min-height: 2rem;
+  min-height: 10%;
   text-align: center;
-  border-top: #fc7c7c solid 1px;
-  text-align: center;
+  width: 100%;
+  border-top: #0ac400 1px solid;
+  margin-top: 10em;
 }
-footer p {
-  color: indianred;
+#footer-brand {
+  float: left;
+  font-size: 6vh;
+  padding-left: 1em;
+}
+footer h1 {
+  color: #000;
   font-weight: bold;
+  padding-top: 5vh;
+  padding-bottom: 1em;
+  font-family: 'Poiret One', cursive;
+}
+.footerCol {
+  float: left;
+  width: 25%;
+  list-style: none;
   padding-top: 1em;
-  float: right;
-  margin-right: 3em;
+}
+
+.footerCol li {
+  line-height: 6vh;
+}
+
+.footerCol a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Poiret One', cursive;
+}
+.footerCol a:hover {
+  color: #0ac400;
 }
 
 
-
-/* MEDIA QUERIES */
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  header {
-    width: 100%;
-  }
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-  footer {
-    width: 100%;
-    min-height: 3rem;
-    background-color: pink;
-    padding: 2rem 0;
-    float: left;
-  }
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  .header-one {
-    min-height: 5rem;
-  }
-
-  #brand {
-    width: 100%;
-    text-align: center;
-  }
-
-  #header-nav {
-    width: 100%;
-    float: left;
-    text-align: center;
-  }
-  #header-nav ul li {
-    display: inline-block;
-    padding-right: .5rem;
-    padding-top: .75rem;
-    font-size: 1rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-  }
-
-  /* ABOUT JUMBOTRON */
-.aboutJumbotron {
-  min-height: 15rem;
-  background-color: #ccc;
-}
-.aboutTitle {
-  text-align: center;
-  font-size: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.aboutBtn {
-  font-size: 1rem;
-  border-radius: 15px;
-  margin-left: 8.5rem;
-  border: #fc7c7c 1px solid;
-}
-.aboutBtn:hover{
-  cursor: pointer;
-  background-color: #f0f0f0;
-}
-
-  footer {
-    width: 100%;
-    min-height: 2rem;
-    background-color: pink;
-    padding: 2rem 0;
-    float: left;
-  }
-}

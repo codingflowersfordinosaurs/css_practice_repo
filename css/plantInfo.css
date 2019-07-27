@@ -1,0 +1,145 @@
+/* HEADER */
+.header-one {
+  min-height: 8%;
+  background-color: #fff;
+  border-bottom: 1px solid #0ac400;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  transition: top 0.5s;
+  z-index: 1000;
+}
+#brand {
+  float: left;
+  font-size: 4vw;
+  padding-top: 1vh;
+  padding-left: 2vw;
+  color: #000;
+  font-family: 'Poiret One', cursive;
+}
+/* #brand:hover {
+  color: #0ac400;
+} */
+#header-nav ul {
+  float: right;
+}
+#header-nav ul li {
+  display: inline-block;
+  padding-right: 2vh;
+  padding-top: 2.5vh;
+  font-size: 2vw;
+  font-family: 'Poiret One', cursive;
+}
+#header-nav a {
+  text-decoration: none;
+  color: #000;
+}
+#header-nav a:last-child {
+  padding-right: 0.5rem;
+}
+#header-nav a:hover {
+  text-decoration: none;
+  color: #0ac400;
+}
+
+section {
+  margin-top: 10em;
+  margin-left: 20em;
+}
+
+.paragraphText {
+  color: #ffffff;
+}
+.titleText {
+  color: #ffffff;
+  font-size: 6em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+
+
+/* FOOTER */
+footer {
+  min-height: 10%;
+  text-align: center;
+  width: 100%;
+}
+#footer-brand {
+  float: left;
+  font-size: 6vh;
+  padding-left: 1em;
+}
+footer h1 {
+  color: #000;
+  font-weight: bold;
+  padding-top: 5vh;
+  padding-bottom: 1em;
+  font-family: 'Poiret One', cursive;
+}
+.footerCol {
+  float: left;
+  width: 25%;
+  list-style: none;
+  padding-top: 1em;
+}
+
+.footerCol li {
+  line-height: 6vh;
+}
+
+.footerCol a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Poiret One', cursive;
+}
+.footerCol a:hover {
+  color: #0ac400;
+}
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 0 0 0;
+  padding: 0 10%;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+  background-color: #49b749;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 10px 10px;
+  width: 100%;
+}
+
+.menu {
+  margin: 5px auto 10px auto;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.menu > li {
+  display: inline-block;
+}
+.menu-button {
+  background-color: #0093D5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.menu-button:hover {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+} */

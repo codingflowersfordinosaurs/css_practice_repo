@@ -8,26 +8,33 @@
 
     <!-- CSS LINKS: use relative paths to access them -->
     <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/miscellaneous.css" />
-    <link rel="stylesheet" href="../css/component.css">
+    <link rel="stylesheet" href="../css/plantInfo.css" />
+    <link rel="stylesheet" href="../css/modal.css">
+     <!-- GOOGLE FONTS -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Bahianita|Darker+Grotesque|Handlee|Merriweather|Open+Sans+Condensed:300|Pathway+Gothic+One|Playfair+Display+SC|Poiret+One|Quicksand|Special+Elite|Squada+One|Tajawal|Teko&display=swap"
+     rel="stylesheet"
+   />
     <!-- TITLE -->
     <title>CSS Practice</title>
   </head>
   <body>
     <!-- USING HTML5 -->
-    <!-- HEADER -->
-    <header class="header-one" id="hamburger-nav">
-      <div class="container">
-        <a href="../index.html"><h1 id="brand">FOOBAR</h1></a>
-        <nav id="header-nav">
-          <ul>
-            <a href="../navLinks/about.html"><li>About</li></a>
-            <a href="../navLinks/plantInfo.html"><li>Plant Info</li></a>
-            <a href="../navLinks/contact.html"><li>Contact</li></a>
-          </ul>
-        </nav>
-      </div>
-    </header>
+   <!-- HEADER -->
+   <header class="header-one" id="navbar">
+    <div class="container">
+      <a href="./index.html"><h1 id="brand">Oh, Mylouie!</h1></a>
+      <!-- START NAV BAR -->
+      <nav id="header-nav">
+        <ul>
+          <a href="./about.html"><li>About</li></a>
+          <a href="./plantInfo.html"><li>Plant Info</li></a>
+          <a href="./contact.html"><li>Contact</li></a>
+        </ul>
+      </nav>
+      <!-- END NAV BAR -->
+    </div>
+  </header>
 <!-- 
     <section>
       <p class="paragraphText">Take a Leap</p>
@@ -390,8 +397,24 @@
     
 
 
-    <footer>
-      <p>©2019, css practice about page</p>
+     <!-- FOOTER -->
+     <footer>
+      <a href="./index.html"><h1 id="footer-brand">Oh, Mylouie!</h1></a>
+      <ul class="footerCol">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Ads Info</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+      <ul class="footerCol">
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Apps</a></li>
+      </ul>
+      <ul class="footerCol">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
     </footer>
 
     <button class="trigger">Click here to trigger the modal!</button>
@@ -404,5 +427,6 @@
     
 
     <script src="../js/modaleffect.js"></script>
+    <script src="../js/navbar.js"></script>
   </body>
 </html>

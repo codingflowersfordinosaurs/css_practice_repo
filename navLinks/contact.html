@@ -9,33 +9,40 @@
     <!-- CSS LINKS: use relative paths to access them -->
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/contact.css" />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bahianita|Darker+Grotesque|Handlee|Merriweather|Open+Sans+Condensed:300|Pathway+Gothic+One|Playfair+Display+SC|Poiret+One|Quicksand|Special+Elite|Squada+One|Tajawal|Teko&display=swap"
+      rel="stylesheet"
+    />
     <!-- TITLE -->
     <title>CSS Practice</title>
   </head>
   <body>
     <!-- USING HTML5 -->
     <!-- HEADER -->
-    <header class="header-one" id="hamburger-nav">
+    <header class="header-one" id="navbar">
       <div class="container">
-        <a href="../index.html"><h1 id="brand">FOOBAR</h1></a>
+        <a href="./index.html"><h1 id="brand">Oh, Mylouie!</h1></a>
+        <!-- START NAV BAR -->
         <nav id="header-nav">
           <ul>
-            <a href="../navLinks/about.html"><li>About</li></a>
-            <a href="../navLinks/miscellaneous.html"><li>Miscellaneous</li></a>
-            <a href="../navLinks/contact.html"><li>Contact</li></a>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./plantInfo.html"><li>Plant Info</li></a>
+            <a href="./contact.html"><li>Contact</li></a>
           </ul>
         </nav>
+        <!-- END NAV BAR -->
       </div>
     </header>
 
     <form action="">
       <div>
         <label for="">Name:</label>
-        <input type="text" id="name" name="user_name">
+        <input type="text" id="name" name="user_name" />
       </div>
       <div>
         <label for="mail">Email:</label>
-        <input type="email" id="mail" name="email_address">
+        <input type="email" id="mail" name="email_address" />
       </div>
       <div>
         <label for="msg">Message:</label>
@@ -46,7 +53,26 @@
       </div>
     </form>
 
+    <!-- FOOTER -->
+    <footer>
+      <a href="./index.html"><h1 id="footer-brand">Oh, Mylouie!</h1></a>
+      <ul class="footerCol">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Ads Info</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+      <ul class="footerCol">
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Apps</a></li>
+      </ul>
+      <ul class="footerCol">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </footer>
 
-
+    <script src="../js/navbar.js"></script>
   </body>
 </html>

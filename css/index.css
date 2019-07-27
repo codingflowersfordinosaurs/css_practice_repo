@@ -1,3 +1,20 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+
 /* HEADER */
 .header-one {
   min-height: 8%;
@@ -17,6 +34,7 @@
   padding-top: 1vh;
   padding-left: 2vw;
   color: #000;
+  font-family: 'Poiret One', cursive;
 }
 /* #brand:hover {
   color: #0ac400;
@@ -29,6 +47,7 @@
   padding-right: 2vh;
   padding-top: 2.5vh;
   font-size: 2vw;
+  font-family: 'Poiret One', cursive;
 }
 #header-nav a {
   text-decoration: none;
@@ -55,6 +74,7 @@
   font-size: 5vh;
   filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
   /* filter: blur(2px); */
+  font-family: 'Poiret One', cursive;
 }
 
 /* SECTION */
@@ -77,6 +97,7 @@ section h3 {
   text-align: center;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  font-family: 'Special Elite', cursive;
 }
 #section-article {
   /* border: red 1px solid; */
@@ -94,6 +115,7 @@ section h3 {
   text-decoration: none;
   color: #000;
   font-size: 3.5vh;
+  font-family: 'Darker Grotesque', sans-serif;
   /* padding-top: 2em; */
 }
 #section-article a:hover {
@@ -123,20 +145,24 @@ aside h3 {
   /* padding-top: 1em; */
   font-size: 5vh;
   padding-bottom: 4vh;
+  font-family: 'Special Elite', cursive;
 }
 #firstAside p {
   padding: 0 6em 3em 6em;
   line-height: 3;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 #secondAside h3 {
   /* padding-top: 1em; */
   font-size: 5vh;
   padding-bottom: 2em;
+  font-family: 'Special Elite', cursive;
 }
 #secondAside p {
   padding: 0 6em 3em 6em;
   line-height: 3;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 /* 2nd Section */
@@ -153,6 +179,7 @@ aside h3 {
   padding-bottom: 5em;
   font-size: 3vh;
   text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 /* last Jumbotron */
@@ -171,6 +198,8 @@ aside h3 {
   padding-top: 10vh;
   padding-right: 6vw;
   filter: drop-shadow(0 0 0.75rem rgb(72, 255, 72));
+  /* font-family: 'Playfair Display SC', serif; */
+  font-family: 'Merriweather', serif;
 }
 
 /* FOOTER */
@@ -182,12 +211,14 @@ footer {
 #footer-brand {
   float: left;
   font-size: 6vh;
+  padding-left: 1em;
 }
 footer h1 {
   color: #000;
   font-weight: bold;
   padding-top: 5vh;
   padding-bottom: 1em;
+  font-family: 'Poiret One', cursive;
 }
 .footerCol {
   float: left;
@@ -203,6 +234,7 @@ footer h1 {
 .footerCol a {
   text-decoration: none;
   color: #000;
+  font-family: 'Poiret One', cursive;
 }
 .footerCol a:hover {
   color: #0ac400;

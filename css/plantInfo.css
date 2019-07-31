@@ -1,9 +1,9 @@
 /* .container {
   background-image: url("../images/leaves.png");
 } */
-body {
-  background-image: url("../images/leaves.png");
-}
+/* body {
+  background-image: url("../images/leaves.png"); 
+} */
 /* HEADER */
 .header-one {
   min-height: 8%;
